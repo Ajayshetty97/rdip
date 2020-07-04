@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="main">
+      <form name="myform">
+        <input type="text" name="textview" class="textview" disabled />
+      </form>
+      <table>
+        <tr>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="&#8730;"
+              onclick="input('sqrt')"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="%"
+              onclick="input('%')"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="/"
+              onclick="input('/')"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="&#8592;"
+              onclick="back()"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="7"
+              onclick="input(7)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="8"
+              onclick="input(8)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="9"
+              onclick="input(9)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="*"
+              onclick="input('*')"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="4"
+              onclick="input(4)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="5"
+              onclick="input(5)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="6"
+              onclick="input(6)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="-"
+              onclick="input('-')"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="1"
+              onclick="input(1)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="2"
+              onclick="input(2)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="3"
+              onclick="input(3)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="+"
+              onclick="input('+')"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="C"
+              onclick="clearScreen()"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button gray number"
+              value="0"
+              onclick="input(0)"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="."
+              onclick="input('.')"
+            />
+          </td>
+          <td>
+            <input
+              type="button"
+              class="button blue symbol"
+              value="="
+              onclick="input('=')"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script type="text/javascript" src="ALLJSFILES.js"></script>
+  </body>
+</html>
