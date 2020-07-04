@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+
+<script src="ALLJSFILES.js"></script>
+  <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+th {
+  text-align: center;
+}
+</style>
+</head>
+<body>
+
+<h1>Registration Form</h1>
+<br>
+
+<table>
+<form  name='registration' onSubmit="return formValidation()" >
+  <tr>
+  <th>
+  <label for="fname">First name:</label></th>
+  <th><input type="text" id="fname" name="fname" required value=""><br><br></th></tr>
+ <tr><th>
+  <label for="number">Phone No:</label></th>  <th>
+  <input type="text" id="number" name="number" required value=""><br><br></th></tr>
+ <tr>
+    <th>
+  <label for="email">E-mail:</label></th><th> 
+  <input type="email" id="email" name="email" required value=""><br><br></th></tr>
+  <tr><th>
+  <input type="submit" value="Submit"></th><th>
+</form>
+</table>
+</body>
+</html>
